@@ -547,6 +547,20 @@ header {
     flex-direction: column;
     gap: 70px;
 }
+
+.card-11 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+.card-12 {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+
+
 @media only screen and (min-width:900px) {
     main {
         max-width: 900px;
@@ -663,6 +677,7 @@ header {
         margin-left: -2px;
         height: 62px;
     }
+
     .mobile-footer {
         display: none;
     }
@@ -676,12 +691,11 @@ header {
     .all-desktop-links-footer {
         display: flex;
         align-items: center;
-        gap: 20px
-        ;
+        gap: 20px;
         margin-top: -90px;
     }
 
-    .title-footer img{
+    .title-footer img {
         margin-top: -50px;
     }
 
@@ -694,5 +708,24 @@ header {
         flex-direction: column;
         gap: 50px;
         margin-top: 130px;
+    }
+
+    .top-creators-card {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .card-11 {
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+
+    .card-12 {
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
     }
 }
